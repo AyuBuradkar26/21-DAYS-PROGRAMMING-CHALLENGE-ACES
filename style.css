@@ -1,0 +1,33 @@
+#H {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: cursive;
+    color: red;
+}
+
+.I1 {
+    border: 8px solid blueviolet;
+    border-radius: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid peru;
+    margin: 20px;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 3px solid peru;
+    padding: 5px;
+}
+
+table.T {
+    table-layout: auto;
+    width: 95%;
+}
