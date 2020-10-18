@@ -1,0 +1,22 @@
+.C {
+    margin: 5px;
+    padding: 6px;
+}
+
+.personal {
+    background: cornflowerblue;
+}
+
+.address {
+    background: lightblue;
+}
+
+.H {
+    background: blueviolet;
+    color: lightcyan;
+    text-align: center;
+}
+
+.B {
+    background: cyan;
+}
