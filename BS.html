@@ -9,8 +9,41 @@
 </head>
 
 <body>
+
+    <section>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Website</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"></li><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page-1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page-1.1</a></li>
+                            <li><a href="#">Page-1.2</a></li>
+                            <li><a href="#">Page-1.3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Page-2</a></li>
+                </ul>
+                <form action="action.php" class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
     <h1>BOOTSTRAP</h1>
     <h2><small>TYPOGRAPHY</small></h2>
+    <pre>
+    <code>
     <p class="text-left">Left aligned</p>
     <p class="text-center">Center aligned</p>
     <p class="text-right">Right aligned</p>
@@ -20,6 +53,8 @@
     <p class="text-info">Info</p>
     <p class="text-warning">Warning</p>
     <p class="text-danger">Danger</p>
+    </code>
+    </pre>
 
     <div class="table-responsive">
         <table class="table table-striped table-bordered table-hover table-condensed">
@@ -93,7 +128,7 @@
     </section>
     <section>
         <br>
-        <div class="card bg-success text-white">
+        <div class="card bg-danger text-white">
             <div class="card-header">Header</div>
             <div class="card-body">Body</div>
             <div class="card-footer">Footer</div>
@@ -101,11 +136,28 @@
         <br>
     </section>
     <section>
-        <img src="Ayu.jpg" class="img-circle" alt="profile pic" width=30%>
-        <img src="bgimg.jpg" class="img-rounded" alt="bg" width=30%>
-        <img src="Qr.jpg" class="img-thumbnail" alt="QR" width=30%>
+        <div class="row">
+            <div class="col-sm-4"><img src="Ayu.jpg" class="img-circle" alt="profile pic" width=100%></div>
+            <div class="col-sm-4"><img src="bgimg.jpg" class="img-rounded" alt="bg" width="100%"></div>
+            <div class="col-sm-4"><img src="Qr.jpg" alt="QR" class="img-thumbnail" width="100%">
+                <div class="img-caption">
+                    <p>QR-code</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <img src="BSgrid.png" class="img-responsive" class="img-thumbnail" alt="Grid layout">
+        <div class="caption">BS Grid layout</div>
+        <hr>
     </section>
 
+    <section>
+        <br>
+        <div class="alert alert-warning alert-dismissible ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Warning!</strong>for more details-<a href="https://www.w3schools.com/bootstrap/default.asp" class="alert-link">click here</a>
+        </div>
+    </section>
 </body>
 
 </html>
